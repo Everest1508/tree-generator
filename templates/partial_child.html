@@ -1,0 +1,10 @@
+<ul>
+    {% for child in children %}
+        <li>
+            <span>{{ child.name }}</span>
+            {% if child.children %}
+                {% include 'partial_child.html' with children=child.children %}
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>
