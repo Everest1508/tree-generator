@@ -14,3 +14,6 @@ mychild.child = abhijit
 mychild.child = ananya
 main.child = yogesh
 ```
+### Demo
+
+![alt text](https://github.com/everest1508/tree-generator/blob/main/demo.png?raw=true)
